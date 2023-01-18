@@ -1,4 +1,42 @@
-body{
-    background: black;
-    color: white;
+body {
+  background: black;
+  height: 100px;
+  color: white;
+}
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  position: absolute;
+  background: #1d1d22;
+}
+
+.sidebar a,
+.sidebar a.active,
+.sidebar a:hover, .sidebar .logo {
+  background: #1d1d22;
+  border: none;
+  text-align: center;
+  color: white;
+}
+
+.sidebar a:not(.active) {
+  color: white;
+}
+
+.sidebar a.active {
+  color: rgb(56, 128, 170);
+}
+
+.sidebar a .bi {
+  font-size: 40px;
+  
+}
+
+.sidebar a.active .bi {
+    font-size: 70px;
+    
+  }
+.content-site {
+  margin-left: 170px;
 }
