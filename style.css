@@ -20,6 +20,10 @@ body {
   color: white;
 }
 
+.sidebar .logo {
+  border-bottom: 6px solid black; 
+}
+
 .sidebar a:not(.active) {
   color: white;
 }
