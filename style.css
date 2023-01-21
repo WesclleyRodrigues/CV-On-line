@@ -13,7 +13,8 @@ body {
 
 .sidebar a,
 .sidebar a.active,
-.sidebar a:hover, .sidebar .logo {
+.sidebar a:hover,
+.sidebar .logo {
   background: #1d1d22;
   border: none;
   text-align: center;
@@ -21,7 +22,7 @@ body {
 }
 
 .sidebar .logo {
-  border-bottom: 6px solid black; 
+  border-bottom: 6px solid black;
 }
 
 .sidebar a:not(.active) {
@@ -34,13 +35,11 @@ body {
 
 .sidebar a .bi {
   font-size: 40px;
-  
 }
 
 .sidebar a.active .bi {
-    font-size: 70px;
-    
-  }
+  font-size: 70px;
+}
 .content-site {
   margin-left: 170px;
 }
