@@ -16,13 +16,13 @@ body {
 .sidebar a:hover,
 .sidebar .logo {
   background: #1d1d22;
-  border: none;
   text-align: center;
-  color: white;
+  border: none;
 }
 
 .sidebar .logo {
-  border-bottom: 6px solid black;
+  border-bottom: 5px solid black;
+  color: white;
 }
 
 .sidebar a:not(.active) {
@@ -30,16 +30,21 @@ body {
 }
 
 .sidebar a.active {
-  color: rgb(56, 128, 170);
+  color: #16a3e4;
 }
 
 .sidebar a .bi {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .sidebar a.active .bi {
-  font-size: 70px;
+  font-size: 100px;
 }
+
 .content-site {
   margin-left: 170px;
+}
+
+.jumbotron {
+  background-color: #1d1d22;
 }
